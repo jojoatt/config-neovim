@@ -78,8 +78,8 @@ return packer.startup(function(use)
 		requires = { { "hoob3rt/lualine.nvim", opt = true }, { "kyazdani42/nvim-web-devicons", opt = true } },
 	})
 
-	--close buffer from tabline
-	use("kazhala/close-buffers.nvim")
+	--which key
+	use("folke/which-key.nvim")
 	-- autocompletion
 	use("hrsh7th/nvim-cmp") -- completion plugin
 	use("hrsh7th/cmp-buffer") -- source for text in buffer
