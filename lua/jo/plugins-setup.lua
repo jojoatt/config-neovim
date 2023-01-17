@@ -49,6 +49,9 @@ return packer.startup(function(use)
 	-- vs-code like icons
 	use("kyazdani42/nvim-web-devicons")
 
+	--comments plugin
+	use("terrortylor/nvim-comment")
+
 	-- statusline
 	use("nvim-lualine/lualine.nvim")
 
