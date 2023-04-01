@@ -14,13 +14,14 @@ local new_colors = {
 	violet = "#FF61EF",
 	yellow = "#FFDA7B",
 	black = "#000000",
+	cyan = "#FFF000",
 }
 
 -- change horizon theme colors
 lualine_horizon.command = {
 	a = {
 		gui = "bold",
-		bg = new_colors.yellow,
+		bg = new_colors.cyan,
 		fg = new_colors.black, -- black
 	},
 }

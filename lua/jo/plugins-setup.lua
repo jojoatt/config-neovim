@@ -39,6 +39,7 @@ return packer.startup(function(use)
 	use("olimorris/onedarkpro.nvim")
 	use("kyazdani42/nvim-palenight.lua")
 	use("rose-pine/neovim")
+	use("JoosepAlviste/palenightfall.nvim")
 
 	use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
@@ -71,7 +72,7 @@ return packer.startup(function(use)
 					show_tabs_always = false, -- this shows tabs only when there are more than one tab or if the first tab is named
 					show_devicons = true, -- this shows devicons in buffer section
 					show_bufnr = false, -- this appends [bufnr] to buffer section,
-					show_filename_only = false, -- shows base filename only instead of relative path in filename
+					show_filename_only = true, -- shows base filename only instead of relative path in filename
 					modified_icon = "+ ", -- change the default modified icon
 					modified_italic = false, -- set to true by default; this determines whether the filename turns italic if modified
 					show_tabs_only = false, -- this shows only tabs instead of tabs + buffers
