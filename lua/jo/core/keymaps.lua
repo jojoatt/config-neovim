@@ -49,22 +49,6 @@ wk.register({
 	s = { ":Telescope colorscheme<CR>", "Colorscheme List" },
 }, { prefix = "<leader>c" })
 
---Lspsaga
 wk.register({
-	o = { ":Lspsaga outline<CR>", "Outline", opts }, -- see outline on right hand side
-	p = { ":Lspsaga diagnostic_jump_prev<CR>", "Prev Diagnostic", opts }, -- jump to previous diagnostic in buffer
-	n = { ":Lspsaga diagnostic_jump_next<CR>", "Next Diagnostic", opts }, -- jump to next diagnostic in buffer
-	d = { ":Lspsaga show_line_diagnostics<CR>", "Diagnostics", opts }, -- show  diagnostics for line
-	a = { ":Lspsaga code_action<CR>", "Suggestion Code", opts }, -- see available code actions
-}, { prefix = "<leader>l" })
-
-wk.register({
-	f = { ":Lspsaga lsp_finder<CR>", "List Defs_Refs", opts }, -- show definition, references
 	D = { ":lua vim.lsp.buf.declaration()<CR>", "Go To Declaration", opts }, -- got to declaration
-	d = { ":Lspsaga peek_definition<CR>", "See Declaration&Edit", opts }, -- see definition and make edits in window"
 }, { prefix = "g" })
-
-wk.register({
-	r = { ":Lspsaga rename<CR>", "Rename", opts }, --smart rename
-	K = { ":Lspsaga hover_doc<CR>", "Signature help", opts }, -- show documentation for what is under cursor
-}, { prefix = "<leader>" })

@@ -91,7 +91,7 @@ require("lazy").setup({
 	-- configuring lsp servers
 	"neovim/nvim-lspconfig", -- easily configure language servers
 	"hrsh7th/cmp-nvim-lsp", -- for autocompletion
-	--	use{ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
+
 	"jose-elias-alvarez/typescript.nvim", -- additional functionality for typescript server (e.g. rename file & update imports)
 	"onsails/lspkind.nvim", -- vs-code like icons for autocompletion
 
