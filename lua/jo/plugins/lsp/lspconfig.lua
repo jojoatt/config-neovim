@@ -83,6 +83,7 @@ lspconfig["html"].setup({
 lspconfig["clangd"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
+	filetypes = { "c", "cpp", "objc", "objcpp" },
 })
 
 -- configure html server
