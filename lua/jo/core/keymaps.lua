@@ -51,4 +51,5 @@ wk.register({
 
 wk.register({
 	D = { ":lua vim.lsp.buf.declaration()<CR>", "Go To Declaration", opts }, -- got to declaration
+	d = { ":lua vim.lsp.buf.definition()<CR>", "Go To Definition", opts }, -- got to definition
 }, { prefix = "g" })
