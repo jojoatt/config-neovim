@@ -37,6 +37,11 @@ wk.register({
 	e = { ":NvimTreeToggle<CR>", "FileExplorer" },
 }, { prefix = "<leader>" })
 
+--See all diagnostics
+wk.register({
+	d = { ":Trouble<CR>", "See diagnostics" },
+}, { prefix = "<leader>" })
+
 --Tabline Keymaps
 wk.register({
 	n = { ":TablineBufferNext<CR>", "NextBuffer" },
