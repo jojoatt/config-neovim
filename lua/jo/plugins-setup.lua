@@ -27,6 +27,9 @@ require("lazy").setup({
 	"nvim-lua/plenary.nvim", -- lua functions that many plugins
 	"christoomey/vim-tmux-navigator", -- tmux & split window navigation
 
+	-- toggle terminal
+	"akinsho/toggleterm.nvim",
+
 	-- file explorer
 	"nvim-tree/nvim-tree.lua",
 

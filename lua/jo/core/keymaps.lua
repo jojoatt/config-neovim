@@ -20,6 +20,18 @@ keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
 keymap.set("n", "<leader>tn", ":tabn<CR>") --  go to next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 
+--toggle-term
+keymap.set("t", "<esc>", [[<C-\><C-n>]], opts) --go from Terminal mode to normal mode
+keymap.set("t", "<C-h>", [[<Cmd>wincmd h<CR>]], opts)
+keymap.set("t", "<C-j>", [[<Cmd>wincmd j<CR>]], opts)
+keymap.set("t", "<C-k>", [[<Cmd>wincmd k<CR>]], opts)
+keymap.set("t", "<C-l>", [[<Cmd>wincmd l<CR>]], opts)
+keymap.set("t", "<leader>c", [[<C-\><C-n>:q!<CR>]], opts)
+keymap.set("n", "<leader>tf", ":ToggleTerm direction=float<CR>") --open new floating terminal
+wk.register({
+	t = { ":ToggleTerm<CR>", "Open new terminal" },
+}, { prefix = "<leader>" })
+
 -- nvim-tree
 wk.register({
 	e = { ":NvimTreeToggle<CR>", "FileExplorer" },
