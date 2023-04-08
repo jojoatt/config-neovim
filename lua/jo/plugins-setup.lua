@@ -26,7 +26,13 @@ require("lazy").setup({
 
 	"nvim-lua/plenary.nvim", -- lua functions that many plugins
 	"christoomey/vim-tmux-navigator", -- tmux & split window navigation
+	{
 
+		"iamcco/markdown-preview.nvim",
+		config = function()
+			vim.fn["mkdp#util#install"]()
+		end,
+	},
 	-- toggle terminal
 	"akinsho/toggleterm.nvim",
 
