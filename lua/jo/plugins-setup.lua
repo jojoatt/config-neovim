@@ -53,7 +53,7 @@ require("lazy").setup({
 	"folke/trouble.nvim",
 
 	--comments plugin
-	"terrortylor/nvim-comment",
+	"numToStr/Comment.nvim",
 
 	-- statusline
 	"nvim-lualine/lualine.nvim",

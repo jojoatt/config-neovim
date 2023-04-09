@@ -1,5 +1,6 @@
-require("nvim_comment").setup({
-	line_mapping = "<leader>cl",
-	operator_mapping = "<leader>cv",
-	comment_chunk_text_object = "ic",
-})
+local comment_setup, comment = pcall(require, "Comment")
+if not comment_setup then
+	return
+end
+
+comment.setup()
