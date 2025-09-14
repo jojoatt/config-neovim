@@ -1,5 +1,5 @@
 require("jo.plugins-setup")
-require("jo.core.options")
+require("jo.core")
 require("jo.core.keymaps")
 require("jo.core.colorscheme")
 require("jo.plugins.nvim-tree")
