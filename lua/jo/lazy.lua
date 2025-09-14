@@ -21,4 +21,8 @@ require("lazy").setup("jo.plugins", {
   change_detection = {
     notify = false,
   },
+  -- disable luarocks/hererocks
+  rocks = {
+    enabled = false,
+  },
 })
