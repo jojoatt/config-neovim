@@ -48,6 +48,7 @@ return {
         "go",
         "xml",
 		    "markdown",
+        "markdown_inline",
 		    "prisma",
 		    "regex",
 		    "rust",
