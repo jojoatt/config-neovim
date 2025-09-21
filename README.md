@@ -50,6 +50,20 @@ To open its powerful UI inside Neovim, type:
 - [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - Autoclose tags
 - [folke/snacks.nvim](https://github.com/folke/snacks.nvim) - Collection of small plugins (only using `input` here for better UI prompts when create/rename/delete files)
 - [MeanderingProgrammer/render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) - Render Markdown directly inside Neovim
+- [mason-org/mason.nvim](https://github.com/mason-org/mason.nvim) - Manage external editor tooling such as LSP servers, DAP servers, linters, and formatters through a single interface
+To open the graphical status windows, you can type:
+```vim
+:Mason
+```
+- [mason-org/mason-lspconfig.nvim](https://github.com/mason-org/mason-lspconfig.nvim) - Automatically install and enable LSP servers
+- [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Provide default Neovim LSP Cient configuration for various LSP servers
+To see all default configs, type:
+```vim
+:help lspconfig-all
+```
+- [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) - Nvim completion source for neovim's built-in language server client
+- [antosha417/nvim-lsp-file-operations](https://github.com/antosha417/nvim-lsp-file-operations) - Add support for file operations using built-in LSP support 
+- [folke/neodev.nvim](https://github.com/folke/neodev.nvim?tab=readme-ov-file) - Add full signature help, docs and completion for the nvim lua API
 
 ### Keybindings
 - All keybindings are defined in:

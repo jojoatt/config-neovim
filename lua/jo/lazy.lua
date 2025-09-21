@@ -11,7 +11,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("jo.plugins", {
+require("lazy").setup({ { import = "jo.plugins" }, { import = "jo.plugins.lsp" } }, {
   -- check if update are available for neovim plugins
   checker = {
     enabled = true,
