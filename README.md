@@ -36,7 +36,7 @@ To open its powerful UI inside Neovim, type:
 - [folke/which-key.nvim](https://github.com/folke/which-key.nvim) - Shows available keybindings as you type (`<SPACE>` to trigger)
  - [nvim-telescope/telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) - Telescope performance boost
 - [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - Fuzzy Finder (files, buffers, etc.)
-- [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - Completion engin
+- [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - Completion engine
 - [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer) - Completion source for text in current buffer
 - [hrsh7th/cmp-path](https://github.com/hrsh7th/cmp-path) - Completion source for file system paths
 - [onsails/lspkind.nvim](https://github.com/onsails/lspkind.nvim) - Vs Code Like-Icons for completion

@@ -50,6 +50,7 @@ return {
 		    "markdown",
         "markdown_inline",
 		    "prisma",
+        "groovy",
 		    "regex",
 		    "rust",
 		    "scss",
